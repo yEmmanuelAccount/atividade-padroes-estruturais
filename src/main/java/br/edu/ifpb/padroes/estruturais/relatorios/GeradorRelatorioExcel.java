@@ -4,6 +4,6 @@ public class GeradorRelatorioExcel implements GeradorRelatorio {
     @Override
     public String gerar(String dadosBrutos) {
         // Simula processamento pesado de geração do relatório em Excel
-        return "[XLSX] Relatorio gerado a partir de: " + dadosBrutos;
+        return "[XLSX] Relatório gerado a partir de: " + dadosBrutos;
     }
 }
